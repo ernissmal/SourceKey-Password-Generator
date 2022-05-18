@@ -10,7 +10,6 @@ from tkinter import *
 import tkinter
 from tkinter import Menu
 import random
-print("App started")
 
 root = Tk("SourceKey Password Generator V.1.0")
 root.geometry("500x400")
@@ -80,7 +79,7 @@ def clicked():
 	f.read
 	f.close
 	label.config(text = "File saved as password_file.txt!")
-	print("Passed")
+	
 
 
 
@@ -119,4 +118,3 @@ btn.pack()
 
 #Mainloop
 root.mainloop()
-print("App finished and closed successfully!")
